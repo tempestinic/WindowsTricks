@@ -22,3 +22,8 @@ Use the file "DisableCtrlAltDel.reg" or manually add the following registry keys
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "disablecad"=dword:00000001
 ```
+
+## Open Classic Notification Area Icons
+Press Win+R to open the Run prompt on your computer. Then, enter this command:
+
+explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}
