@@ -27,3 +27,8 @@ Use the file "DisableCtrlAltDel.reg" or manually add the following registry keys
 Press Win+R to open the Run prompt on your computer. Then, enter this command:
 
 explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}
+
+## Open Classic Printers
+Press Win+R to open the Run prompt on your computer. Then, enter this command:
+
+start shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\0\::{2227A280-3AEA-1069-A2DE-08002B30309D}
